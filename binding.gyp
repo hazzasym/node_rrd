@@ -12,7 +12,7 @@
       ],
       'include_dirs' : [ "<!(node -e \"require('nan')\")" ],
       'libraries': [ "-lrrd" ],
-      'cflags_cc': [ "-std=c++11" ]
+      'cflags_cc': [ "-std=c++11", "-I/usr/local/include" ]
     }
   ]
 }
