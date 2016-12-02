@@ -11,7 +11,7 @@
       	, "src/node_rrd.cc"
       ],
       'include_dirs' : [ "<!(node -e \"require('nan')\")" ],
-      'libraries': [ "-lrrd", "/usr/local/lib/librrd.so" ],
+      'libraries': [ "-lrrd", "-L/usr/local/lib" ],
       'cflags_cc': [ "-std=c++11", "-I/usr/local/include" ]
     }
   ]
