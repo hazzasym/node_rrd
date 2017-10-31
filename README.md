@@ -2,6 +2,8 @@
 
 node_rrd is a node.js (http://nodejs.org) native binding for RRDtool (http://oss.oetiker.ch/rrdtool/).
 
+This fork is update binding.gyp to support build on FreeBSD system
+
 # Dependencies
 
 In order to compile the c++ sources, you need to have: 
